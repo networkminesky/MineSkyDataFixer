@@ -1,0 +1,19 @@
+main: net.minesky.mineskydatafixer.MineSkyDataFixer
+name: MineSkyDataFixer
+version: '${version}'
+
+folia-supported: true
+
+api-version: '26.1.2'
+
+commands:
+  mineskydatafixer:
+    description: Resgata jogadores presos em chunks corrompidas redefinindo o NBT offline.
+    permission: minesky.admin
+    aliases:
+      - msdf
+
+permissions:
+  mineskydatafixer.admin:
+    description: Permissao para utilizar comandos de resgate do MineSkyDataFixer.
+    default: op

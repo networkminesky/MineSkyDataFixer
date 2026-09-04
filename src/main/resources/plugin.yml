@@ -9,7 +9,7 @@ api-version: '26.1.2'
 commands:
   mineskydatafixer:
     description: Resgata jogadores presos em chunks corrompidas redefinindo o NBT offline.
-    permission: minesky.admin
+    permission: mineskydatafixer.admin
     aliases:
       - msdf
 
